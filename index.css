@@ -5,19 +5,56 @@
   border: none;
   font-size: 16px;
   font-family: kaiti;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 body {
-  background-color: #2c3e50;
-}
-.user_info {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
-.user_info .email {
-  font-size: 300%;
-  letter-spacing: 5px;
+body .hader_nav {
+  width: 1200px;
+  padding: 16px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+body .project_list {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 30px;
+}
+body .project_list .item {
+  width: 100%;
+  padding: 16px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+body .project_list .item .top {
+  display: grid;
+  grid-template-columns: 10px auto;
+  gap: 5px;
+  align-items: center;
+}
+body .project_list .item .top .status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #999999;
+}
+body .project_list .item .remark {
+  color: #999999;
+  font-size: 80%;
+  margin-top: 16px;
+}
+body .project_list .item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #ecf0f1;
 }
