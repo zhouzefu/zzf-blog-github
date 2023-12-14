@@ -52,6 +52,7 @@ window.onload = res => initPageData(res);
  * @param {Event} res 
  */
 function initPageData(res) {
+    console.log('res ------------->',res);
     $('email').innerHTML = email;
 }
 
