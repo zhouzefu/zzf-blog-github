@@ -1,3 +1,4 @@
+// 所有元素基础自定义样式
 * {
     padding: 0px;
     margin: 0px;
@@ -11,6 +12,8 @@
     -ms-overflow-style: none;
 }
 
+// 主色调
+@color_main:rgba(39, 174, 96, 1.0);
 
 // 窗体
 body {
@@ -18,8 +21,37 @@ body {
     flex-direction: column;
     align-items: center;
 
+    // 状态基础
+    .status {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(127, 140, 141, 1.0);
+        margin-right: 10px;
+    }
+
+    // 状态0 - 计划中
+    .status_0 {
+        background-color: rgba(127, 140, 141, 1.0);
+    }
+
+    // 状态1 - 开发中
+    .status_1 {
+        background-color: rgba(41, 128, 185, 1.0);
+    }
+
+    // 状态2 - 测试中
+    .status_2 {
+        background-color: rgba(211, 84, 0, 1.0);
+    }
+
+    // 状态3 - 运行中
+    .status_3 {
+        background-color: @color_main;
+    }
+
     // 头部导航
-    .hader_nav {
+    .nav_hader {
         width: 1200px;
         padding: 16px 0px;
         display: flex;
@@ -29,6 +61,21 @@ body {
         border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     }
 
+    // 状态提示
+    .status_list {
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+        opacity: 0.4;
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+        }
+    }
+
 
     // 项目列表
     .project_list {
@@ -36,7 +83,7 @@ body {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
-        margin-top: 30px;
+        margin-top: 16px;
 
         .item {
             width: 100%;
@@ -50,15 +97,6 @@ body {
                 gap: 5px;
                 align-items: center;
 
-                .status {
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 50%;
-                    background-color: #999999;
-                }
-
-                .tilte {}
-
             }
 
             .remark {
@@ -69,8 +107,72 @@ body {
 
             &:hover {
                 cursor: pointer;
-                transform: scale(1.05); 
-                background-color: rgba(236, 240, 241,1.0);
+                transform: scale(1.05);
+                background-color: rgba(236, 240, 241, 1.0);
+            }
+        }
+    }
+
+    // Toast提示框
+    .toast_list {
+        position: fixed;
+        bottom: 100px; 
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+
+        .toast{ 
+            padding: 5px 30px;
+            background-color: rgba(236, 240, 241,1.0);
+            color: #000000;
+            border-radius: 10px; 
+        }
+    } 
+
+    // model提示框
+    .mode_box{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            background-color: #ffffff;
+            padding: 16px;
+            border-radius: 5px;
+            min-width: 500px;
+
+            .message{
+                width: 100%;
+                text-align: center;
+                padding: 16px 30px;
+            }
+            .btn_list{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: 16px;
+                .btn{ 
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    border-radius: 5px;
+                    text-align: center;
+
+                    &:hover{
+                        transform: scale(1.05);
+                    cursor: pointer;
+                    }
+                }
+
+                .btn_confirm{
+                    background-color: @color_main;
+                    margin-left: 16px;
+                    color: #ffffff;
+                }
             }
         }
     }
