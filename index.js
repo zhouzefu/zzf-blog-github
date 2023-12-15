@@ -68,9 +68,16 @@ const projects = [{
 }];
 
 /**
- * Toast定时器ID
+ * 鸡汤
  */
-const toastId = null;
+const mottos = [
+    '空山不见人，但闻人语响。返景入深林，复照青苔上。-- 王维（唐）《鹿柴》',
+    '西塞山前白鹭飞，桃花流水鳜鱼肥。青箬笠，绿蓑衣，斜风细雨不须归 -- 李白（唐）《赠汪伦》',
+    '生当作人杰，死亦为鬼雄。至今思项羽，不肯过江东。 -- 李清照（宋）《夏日绝句》',
+    '白日依山尽，黄河入海流。欲穷千里目，更上一层楼。-- 王之涣（唐）《登鹳雀楼》',
+    '牧童骑黄牛，歌声振林樾。意欲捕鸣蝉，忽然闭口立。-- 袁枚（清）《所见》',
+    '众鸟高飞尽，孤云独去闲。相看两不厌，只有敬亭山。 -- 李白（唐）《独坐敬亭山》'
+];
 
 /**
  * 页面加载时
@@ -85,8 +92,38 @@ window.onload = res => initPageData(res);
  */
 function initPageData(res) {
     initNavHaderHtml();
+    initMottosHtml();
     initStatusTipHtml();
     initProjectListHtml();
+}
+/**
+ * 初始格言
+ */
+function initMottosHtml() {
+    const mottoEl = create('div');
+    mottoEl.classList = 'motto'; 
+    mottoEl.innerHTML = 'zhouzefu@126.com';
+    $('motto_box').appendChild(mottoEl);
+    setInterval(()=>  mottoEl.innerHTML = getRandomMotto(mottos),5000)
+}
+
+/**
+ * 获取随机名言
+ * @param {[]} mottos 
+ * @returns 
+ */
+function getRandomMotto(mottos) {
+    return mottos[Math.floor(Math.random() * mottos.length)];
+}
+
+
+/**
+ * 创建标签元素
+ * @param {string} tag 
+ * @returns 
+ */
+function create(tag) {
+    return window.document.createElement(tag);
 }
 
 /**
@@ -125,7 +162,7 @@ function initNavHaderHtml() {
     const emailEl = window.document.createElement('div');
     emailEl.classList = 'email';
     emailEl.innerHTML = `泽富姓周（${my_email}）`;
-    emailEl.onclick = res => sendEmail(my_email,'来自GitHub/Blog站点的小伙伴','你好~');
+    emailEl.onclick = res => sendEmail(my_email, '来自GitHub/Blog站点的小伙伴', '你好~');
     // 时间
     const timeEl = window.document.createElement('div');
     timeEl.classList = 'date_time';
@@ -142,8 +179,8 @@ function initNavHaderHtml() {
  * @param {string} subject 
  * @param {string} body 
  */
-function sendEmail(to,subject,body){ 
-    window.open(`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${body}`,'_blank');
+function sendEmail(to, subject, body) {
+    window.open(`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${body}`, '_blank');
 }
 /**
  * 改变项目排序状态
@@ -198,7 +235,7 @@ function buildProjectListHtml(projects) {
  * @param {{}} item 
  * @param {number} index 
  */
-function onClickProject(item, index) { 
+function onClickProject(item, index) {
     if (item.status.state === project_status.running.state) showToast('服务配置中');
     else showToast(item.status.title);
 }

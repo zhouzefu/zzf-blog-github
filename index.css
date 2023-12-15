@@ -42,6 +42,13 @@ body .nav_hader {
   position: sticky;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
+body .motto_box {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body .status_list {
   width: 1200px;
   display: flex;
