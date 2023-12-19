@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7aff9d2-170b-4174-9b8b-a1b4888694c2" name="更改" comment="还原初始化版本">
-      <change afterPath="$PROJECT_DIR$/html/random_char.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/utils.js" afterDir="false" />
+    <list default="true" id="e7aff9d2-170b-4174-9b8b-a1b4888694c2" name="更改" comment="初始化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/random_char.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/random_char.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <updated>1702904500635</updated>
       <workItem from="1702904502232" duration="2488000" />
       <workItem from="1702987310396" duration="135000" />
-      <workItem from="1702987517194" duration="384000" />
+      <workItem from="1702987517194" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -199,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702987640952</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1702987915201</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702987915201</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +227,7 @@
     <MESSAGE value="main" />
     <MESSAGE value="delete" />
     <MESSAGE value="还原初始化版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="还原初始化版本" />
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
 </project>
