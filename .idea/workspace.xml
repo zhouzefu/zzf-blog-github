@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7aff9d2-170b-4174-9b8b-a1b4888694c2" name="更改" comment="初始化">
+    <list default="true" id="5d191f6e-3be8-4154-bb58-d21582a5fd37" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zzf-blog-github.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/ config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/enhanceApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/random_char.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/random_char.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/random_char.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utils.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,26 +27,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="website" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="kgojs0po" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/apache-maven-3.8.5" />
-        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.8.5\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2ZiUfoNwpRZKYuLFxC5M4zy7ziF" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2a1mWusxzYv4azKhLX5kXgrNQ24" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -43,191 +50,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace-dev/zzf_blog_github&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\zhouzefu\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.9161.38\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace_demo/zzf-blog-github",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace-dev\zzf_blog_github" />
-      <recent name="D:\workspace-dev\zzf_blog_github\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace-dev\zzf_blog_github\css" />
-      <recent name="D:\workspace-dev\zzf_blog_github\js" />
-      <recent name="D:\workspace-dev\zzf_blog_github\src\pages" />
+      <recent name="D:\workspace_demo\zzf-blog-github\docs\.vuepress" />
     </key>
-  </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="e7aff9d2-170b-4174-9b8b-a1b4888694c2" name="更改" comment="" />
-      <created>1702904500635</created>
+      <changelist id="5d191f6e-3be8-4154-bb58-d21582a5fd37" name="更改" comment="" />
+      <created>1703494494561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702904500635</updated>
-      <workItem from="1702904502232" duration="2488000" />
-      <workItem from="1702987310396" duration="135000" />
-      <workItem from="1702987517194" duration="4553000" />
+      <updated>1703494494561</updated>
+      <workItem from="1703494495595" duration="494000" />
     </task>
-    <task id="LOCAL-00001" summary="初始化项目">
-      <option name="closed" value="true" />
-      <created>1702904839878</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1702904839878</updated>
-    </task>
-    <task id="LOCAL-00002" summary="初始化项目">
-      <option name="closed" value="true" />
-      <created>1702905370075</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1702905370075</updated>
-    </task>
-    <task id="LOCAL-00003" summary="初始化项目">
-      <option name="closed" value="true" />
-      <created>1702905603904</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1702905603905</updated>
-    </task>
-    <task id="LOCAL-00004" summary="初始化项目">
-      <option name="closed" value="true" />
-      <created>1702905920669</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1702905920669</updated>
-    </task>
-    <task id="LOCAL-00005" summary="初始化项目">
-      <option name="closed" value="true" />
-      <created>1702906172009</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1702906172009</updated>
-    </task>
-    <task id="LOCAL-00006" summary="main">
-      <option name="closed" value="true" />
-      <created>1702906273296</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1702906273296</updated>
-    </task>
-    <task id="LOCAL-00007" summary="delete">
-      <option name="closed" value="true" />
-      <created>1702906641492</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1702906641492</updated>
-    </task>
-    <task id="LOCAL-00008" summary="delete">
-      <option name="closed" value="true" />
-      <created>1702987364792</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1702987364792</updated>
-    </task>
-    <task id="LOCAL-00009" summary="还原初始化版本">
-      <option name="closed" value="true" />
-      <created>1702987583829</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1702987583829</updated>
-    </task>
-    <task id="LOCAL-00010" summary="还原初始化版本">
-      <option name="closed" value="true" />
-      <created>1702987640952</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1702987640952</updated>
-    </task>
-    <task id="LOCAL-00011" summary="初始化">
-      <option name="closed" value="true" />
-      <created>1702987915201</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1702987915201</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="初始化项目" />
-    <MESSAGE value="main" />
-    <MESSAGE value="delete" />
-    <MESSAGE value="还原初始化版本" />
-    <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
 </project>

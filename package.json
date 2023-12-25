@@ -1,0 +1,20 @@
+{
+  "name": "zzf-blog-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "git+https://github.com/zhouzefu/zzf-blog-github.git",
+  "author": "zhouzefu@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouzefu/zzf-blog-github/issues"
+  },
+  "homepage": "https://github.com/zhouzefu/zzf-blog-github#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
